@@ -4,7 +4,7 @@ require_once __DIR__.'/phpmailer/src/SMTP.php';
 
 class Recruit_Libs_Mail
 {
-    public static $HOST = 'smtp.qyer.com'; //邮箱的服务器地址
+    public static $HOST = 'smtp.163.com'; //邮箱的服务器地址
     public static $PORT = 25; // smtp 服务器的远程服务器端口号
     public static $SMTP = ''; // 使用 ssl 加密方式登录
     public static $CHARSET = 'UTF-8'; // 设置发送的邮件的编码
